@@ -1,35 +1,63 @@
 body {
     background-color: hsl(30, 54%, 90%);
-    font-family: 'Young Serif', serif; /* Cambia la fuente a Young Serif */
-    font-size: 16px; /* Tamaño de fuente para el cuerpo del documento */
-  }
-  
-  .container {
-    max-width: 610px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .container img{
+    font-size: 14px; /* Tamaño de fuente para el cuerpo del documento */
+    font-weight: 400;
+    font-family: 'Outfit';
+    color:hsl(30, 10%, 34%);
+    
+    }
+    .container {
+      max-width: 610px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding-left: 30px; /* Ajusta este valor según sea necesario */
+    }
+      .container img{
     margin-top: 5px;
     margin-left: 5px;
     border-radius: 15px;
 
   }
   .attribution {
-    font-family: 'Outfit', sans-serif; /* Cambia la fuente a Outfit */
     font-size: 11px;
     text-align: center;
     margin-top: 20px;
   }
-  .container h3 {
+  .container #titulo {
     color:hsl(332, 51%, 32%);
-}
+    margin-left: 35px;
+   }
+
 .container h2 {
-    color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif';
+  font-weight: 500;
+  color: hsl(14, 45%, 36%);
+}
+.container h1{
+  font-family: 'Young Serif';
+  font-weight: 600;
+  color:hsl(24, 5%, 18%);
 }
 
-  
+.cuadro {
+  max-width: 600px;
+  margin-left: 3px; 
+  padding-top: 0.5px; /* Reducción del espacio vertical */
+  padding-bottom: 5px;
+  padding-left:0.5px;
+  border-radius: 15px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.container .cuadro li {
+  color: hsl(30, 10%, 34%)
+}
+
+.container .cuadro li::marker {
+  color:hsl(332, 51%, 32%);
+}
+
   
