@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif; /* Cambia la fuente a Young Serif */
+    font-size: 16px; /* Tamaño de fuente para el cuerpo del documento */
+  }
+  
+  .container {
+    max-width: 610px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container img{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+
+  }
+  .attribution {
+    font-family: 'Outfit', sans-serif; /* Cambia la fuente a Outfit */
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .container h3 {
+    color:hsl(332, 51%, 32%);
+}
+.container h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+  
+  
