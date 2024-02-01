@@ -15,6 +15,7 @@ En esta primera parte, el objetivo es desarrollar todo el HTML necesario para mo
 ## Parte 2: Estilos con CSS
 En la segunda parte debemos generar los estilos necesarios para que la página construida se vea igual a los diseños, para esto vamos a utilizar CSS y selectores de tipo clase y de tipo ID.
 
+![Diseño con css](./assets/images/con%20css.png) 
 
 ## Recursos:
 - En la carpeta `assets` encontrarán las fuentes y las imágenes que utilizaremos a lo largo del desarrollo.
